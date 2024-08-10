@@ -36,5 +36,7 @@ function generateQuote() {
   return `${phrase}, ${action}, ${outcome}`;
 }
 
-// Generate and log a random quote to the console
-console.log(generateQuote());
+// Generate and display a random quote to the user
+const randomQuote = generateQuote();
+console.log("Your Inspirational Quote:");
+console.log(randomQuote);
