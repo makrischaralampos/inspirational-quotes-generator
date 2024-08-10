@@ -27,10 +27,12 @@ const outcomes = [
 
 // Function to generate a random inspirational quote
 function generateQuote() {
+  // Randomly select one item from each array
   const phrase = phrases[Math.floor(Math.random() * phrases.length)];
   const action = actions[Math.floor(Math.random() * actions.length)];
   const outcome = outcomes[Math.floor(Math.random() * outcomes.length)];
 
+  // Combine the selected items into a cohesive message
   return `${phrase}, ${action}, ${outcome}`;
 }
 
