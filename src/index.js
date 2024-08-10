@@ -1,4 +1,4 @@
-import { generateQuote } from "./generateQuote";
+import { generateQuote } from "./generateQuote.js";
 
 // Generate and display a random quote to the user
 const randomQuote = generateQuote();
